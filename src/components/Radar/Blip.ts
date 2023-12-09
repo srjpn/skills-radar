@@ -58,7 +58,7 @@ export class Blip {
     return `translate(${this.x}px, ${this.y}px)`;
   }
 
-  update(d: d3.SimulationNodeDatum) {
+  update(_: d3.SimulationNodeDatum) {
     this.clip();
     return this;
   }

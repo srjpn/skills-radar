@@ -13,7 +13,7 @@ export function Blips({ entries, selected, setSelected }: Props) {
 
   return (
     <div className="blips">
-      {animatedBlips.map((blip, i) => {
+      {animatedBlips.map((blip) => {
         return (
           <div
             key={blip.label}
