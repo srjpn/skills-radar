@@ -1,4 +1,3 @@
-"use client"
 import React, { useState, useEffect, Dispatch, SetStateAction } from "react";
 import * as d3 from "d3";
 import { Blip } from "./Blip";
