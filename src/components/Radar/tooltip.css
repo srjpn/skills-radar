@@ -1,0 +1,71 @@
+.blip.use .tooltip {
+  border: 1px solid var(--honeyDew);
+  box-shadow: 0 0 6px var(--honeyDew);
+}
+
+.blip.try .tooltip {
+  border: 1px solid var(--banana);
+  box-shadow: 0 0 6px var(--banana);
+}
+
+.blip.reconsider .tooltip {
+  border: 1px solid var(--gray500);
+  box-shadow: 0 0 6px var(--gray500);
+}
+
+.blip.hold .tooltip {
+  border: 1px solid var(--plum);
+  box-shadow: 0 0 6px var(--plum);
+}
+
+.tooltip {
+  background: white;
+  padding: 10px;
+  top: -10px;
+  left: -10px;
+  position: relative;
+  z-index: 3;
+  min-width: 200px;
+  border-radius: 4px;
+}
+
+.tooltip-statusWrapper {
+  position: absolute;
+  top: -15px;
+  left: 10px;
+}
+
+.blip.use .tooltip-status {
+  background-color: var(--honeyDew);
+}
+
+.blip.try .tooltip-status {
+  background-color: var(--banana);
+}
+
+.blip.reconsider .tooltip-status {
+  background-color: var(--gray500);
+}
+
+.blip.hold .tooltip-status {
+  background-color: var(--plum);
+}
+
+.tooltip-status {
+  border-radius: 3px;
+  padding: 2px 6px;
+}
+
+.tooltip-category {
+  font-size: 12px;
+}
+
+.tooltip .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.tooltip .title b {
+  margin-left: 5px;
+}
