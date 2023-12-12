@@ -1,16 +1,19 @@
-.blips {
-  position: absolute;
-  top: calc(50% - 13px);
-  left: calc(50% - 13px);
-  width: 0;
-}
+.radar {
+  .blips {
+    position: absolute;
+    top: calc(50% - 13px);
+    left: calc(50% - 13px);
+    width: 0;
+  }
 
-.blip {
-  cursor: pointer;
-  position: absolute;
-  z-index: 1;
-}
+  .blip {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+  }
 
-.blip.selected {
-  z-index: 2;
+  .blip.selected {
+    z-index: 2;
+  }
+
 }

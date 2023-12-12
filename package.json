@@ -1,5 +1,8 @@
 {
-  "name": "skills-radar",
+  "name": "@srjpn/skills-radar",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/srjpn"
+  },
   "version": "1.0.0",
   "description": "",
   "scripts": {
