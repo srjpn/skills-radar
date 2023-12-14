@@ -3,11 +3,18 @@
     "outDir": "dist",
     "module": "esnext",
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext", "es6", "es2016", "es2017"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "es6",
+      "es2016",
+      "es2017"
+    ],
     "sourceMap": true,
     "allowJs": true,
     "jsx": "preserve",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
@@ -16,9 +23,27 @@
     "isolatedModules": true,
     "incremental": true,
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": true,
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
