@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: "export",
   // camelcase css loader...
   webpack: (config) => {
     const rules = config.module.rules
