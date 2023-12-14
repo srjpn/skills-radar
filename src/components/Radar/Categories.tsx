@@ -3,7 +3,7 @@ import { blips } from "./blipsList";
 import { Category, Entry } from "./types";
 import React from "react";
 
-import "./categories.css";
+import styles from '@/styles/Categories.module.css'
 
 const byCategory = (entries: Entry[], category: Category): Blip[] =>
     blips(entries as Entry[]).filter((entry: Blip) => entry.category === category);
@@ -33,7 +33,7 @@ export function Categories({
         return (
           <div
             key={category}
-            className={`category ${getCategoryId(category as Category)}`}
+            className={`${styles.category} ${styles[getCategoryId(category as Category)]}`}
           >
             <h3>{category}</h3>
 
@@ -43,7 +43,7 @@ export function Categories({
                   <li
                     key={entry.id}
                     onMouseOver={() => setSelected(entry.originId)}
-                    className={selected === entry.originId ? "selected" : ""}
+                    className={selected === entry.originId ? styles.selected : ""}
                   >
                     {entry.label}
                   </li>
@@ -60,7 +60,7 @@ export function Categories({
 function getCategoryId(category: Category): string {
   const categoryMap = {
     Tools: "tools",
-    "Languages & Frameworks": "languages-frameworks",
+    "Languages & Frameworks": "languagesFrameworks",
     Techniques: "techniques",
     Platforms: "platforms",
   };
