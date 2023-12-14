@@ -1,0 +1,266 @@
+[
+  {
+    "originId": "c864267f-a5d7-40f0-b8cd-bd7ff862003d",
+    "category": "Platforms",
+    "status": "✅ Use",
+    "label": "CDK",
+    "icon": [
+      "url",
+      "/icon-c864267f-a5d7-40f0-b8cd-bd7ff862003d.png"
+    ],
+    "id": 5
+  },
+  {
+    "originId": "b78f871f-a27a-4498-ba0f-acb8d48c5724",
+    "category": "Platforms",
+    "status": "✅ Use",
+    "label": "Cognito",
+    "icon": [
+      "url",
+      "/icon-b78f871f-a27a-4498-ba0f-acb8d48c5724.png"
+    ],
+    "id": 6
+  },
+  {
+    "originId": "8340ce44-bad1-4e7f-ab5e-47c019573e2c",
+    "category": "Tools",
+    "status": "✅ Use",
+    "label": "DynamoDB",
+    "icon": [
+      "url",
+      "/icon-8340ce44-bad1-4e7f-ab5e-47c019573e2c.png"
+    ],
+    "id": 8
+  },
+  {
+    "originId": "c7b96e3f-fa82-4ffa-81c6-47e69bbd29b3",
+    "category": "Languages & Frameworks",
+    "status": "✅ Use",
+    "label": "Flutter",
+    "icon": [
+      "url",
+      "/icon-c7b96e3f-fa82-4ffa-81c6-47e69bbd29b3.svg"
+    ],
+    "id": 11
+  },
+  {
+    "originId": "5952c86f-29d1-443c-afc7-043ed6f57075",
+    "category": "Techniques",
+    "status": "✅ Use",
+    "label": "GraphQL",
+    "icon": [
+      "url",
+      "/icon-5952c86f-29d1-443c-afc7-043ed6f57075.png"
+    ],
+    "id": 12
+  },
+  {
+    "originId": "b5a263cf-b9c0-4396-8208-d8333886defb",
+    "category": "Platforms",
+    "status": "✅ Use",
+    "label": "Lambda",
+    "icon": [
+      "url",
+      "/icon-b5a263cf-b9c0-4396-8208-d8333886defb.svg"
+    ],
+    "id": 18
+  },
+  {
+    "originId": "b9b95a41-3f18-4895-937b-002bf061923a",
+    "category": "Techniques",
+    "status": "✅ Use",
+    "label": "Microfrontends",
+    "icon": [
+      "emoji",
+      "🌐"
+    ],
+    "id": 19
+  },
+  {
+    "originId": "34633681-c0a3-4ae6-a4b0-25bbe56f3213",
+    "category": "Languages & Frameworks",
+    "status": "✅ Use",
+    "label": "Python",
+    "icon": [
+      "url",
+      "/icon-34633681-c0a3-4ae6-a4b0-25bbe56f3213.png"
+    ],
+    "id": 22
+  },
+  {
+    "originId": "72fcfa13-1458-4120-84f9-d5acccf195f2",
+    "category": "Languages & Frameworks",
+    "status": "✅ Use",
+    "label": "React",
+    "icon": [
+      "url",
+      "/icon-72fcfa13-1458-4120-84f9-d5acccf195f2.png"
+    ],
+    "id": 23
+  },
+  {
+    "originId": "09344b90-b0f6-4e36-a847-6f2ed21a146c",
+    "category": "Tools",
+    "status": "✅ Use",
+    "label": "SNS + SQS",
+    "icon": [
+      "url",
+      "/icon-09344b90-b0f6-4e36-a847-6f2ed21a146c.png"
+    ],
+    "id": 26
+  },
+  {
+    "originId": "b4da7553-d78b-4167-afdb-dfcdcf75f12a",
+    "category": "Tools",
+    "status": "✅ Use",
+    "label": "Sentry",
+    "icon": [
+      "url",
+      "/icon-b4da7553-d78b-4167-afdb-dfcdcf75f12a.png"
+    ],
+    "id": 27
+  },
+  {
+    "originId": "4460e199-5370-4c20-915f-680110b96346",
+    "category": "Techniques",
+    "status": "✅ Use",
+    "label": "Step Function Local Testing",
+    "icon": [
+      "none",
+      null
+    ],
+    "id": 28
+  },
+  {
+    "originId": "59db2e05-931c-45b0-bd06-56c153c97567",
+    "category": "Platforms",
+    "status": "✅ Use",
+    "label": "Step Functions",
+    "icon": [
+      "url",
+      "/icon-59db2e05-931c-45b0-bd06-56c153c97567.png"
+    ],
+    "id": 29
+  },
+  {
+    "originId": "e5e59672-a9eb-4723-b3d3-27b99740f4e9",
+    "category": "Languages & Frameworks",
+    "status": "✅ Use",
+    "label": "TypeScript",
+    "icon": [
+      "url",
+      "/icon-e5e59672-a9eb-4723-b3d3-27b99740f4e9.png"
+    ],
+    "id": 33
+  },
+  {
+    "originId": "a6ac7ca0-bcf0-419c-bc19-517918a0a4d8",
+    "category": "Tools",
+    "status": "✅ Use",
+    "label": "esbuild",
+    "icon": [
+      "url",
+      "/icon-a6ac7ca0-bcf0-419c-bc19-517918a0a4d8.png"
+    ],
+    "id": 35
+  },
+  {
+    "originId": "92021011-3a6b-45ed-8c7e-a112b692563d",
+    "category": "Tools",
+    "status": "✅ Use",
+    "label": "nx",
+    "icon": [
+      "url",
+      "/icon-92021011-3a6b-45ed-8c7e-a112b692563d.webp"
+    ],
+    "id": 36
+  },
+  {
+    "originId": "6ced348c-4eee-4133-b06b-7e16c38cbaa6",
+    "category": "Techniques",
+    "status": "🚧 Try",
+    "label": "Contract Testing",
+    "icon": [
+      "none",
+      null
+    ],
+    "id": 43
+  },
+  {
+    "originId": "ee36f6b9-210b-40e5-916c-b796cf04bb06",
+    "category": "Tools",
+    "status": "🚧 Try",
+    "label": "GitHub CoPilot",
+    "icon": [
+      "none",
+      null
+    ],
+    "id": 48
+  },
+  {
+    "originId": "44eeddcf-1771-4300-9e67-ade3357f2353",
+    "category": "Languages & Frameworks",
+    "status": "🚧 Try",
+    "label": "Nest.Js",
+    "icon": [
+      "url",
+      "/icon-44eeddcf-1771-4300-9e67-ade3357f2353.png"
+    ],
+    "id": 54
+  },
+  {
+    "originId": "9b731d7f-aba5-4eff-9797-358d0730b2d0",
+    "category": "Tools",
+    "status": "🚧 Try",
+    "label": "PostgreSQL",
+    "icon": [
+      "url",
+      "/icon-9b731d7f-aba5-4eff-9797-358d0730b2d0.png"
+    ],
+    "id": 58
+  },
+  {
+    "originId": "964deb20-a5e6-4ea0-bc2e-d2461c880eec",
+    "category": "Tools",
+    "status": "🚧 Try",
+    "label": "Postman",
+    "icon": [
+      "none",
+      null
+    ],
+    "id": 59
+  },
+ {
+    "originId": "f5ee1afb-576a-4fdd-90b0-6344be2224a6",
+    "category": "Platforms",
+    "status": "🚫 Hold",
+    "label": "CloudFormation",
+    "icon": [
+      "url",
+      "/icon-f5ee1afb-576a-4fdd-90b0-6344be2224a6.svg"
+    ],
+    "id": 63
+  },
+  {
+    "originId": "f042362a-1201-4333-8144-4e0015d79e2c",
+    "category": "Languages & Frameworks",
+    "status": "🤔 Reconsider",
+    "label": "AWS SAM",
+    "icon": [
+      "none",
+      null
+    ],
+    "id": 66
+  },
+  {
+    "originId": "2f4791c3-2fef-4d9d-a8c6-ec1c8dedfd6c",
+    "category": "Tools",
+    "status": "🤔 Reconsider",
+    "label": "HackerOne",
+    "icon": [
+      "url",
+      "/icon-2f4791c3-2fef-4d9d-a8c6-ec1c8dedfd6c.png"
+    ],
+    "id": 68
+  }
+]
