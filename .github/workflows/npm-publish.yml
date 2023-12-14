@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm install
         env:
-            NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
 
       - name: Check for version change
         id: check-version
@@ -43,7 +43,7 @@ jobs:
         if: steps.check-version.outcome == 'success'
         run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
 
       - name: Tag commit
         if: steps.check-version.outcome == 'success'
