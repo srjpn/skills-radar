@@ -25,6 +25,9 @@ jobs:
         env:
             NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
 
+      - name: Build
+        run: npm run build 
+
       - name: Check for version change
         id: check-version
         run: |
