@@ -2,8 +2,9 @@ name: NPM Publish
 
 on:
   push:
-    branches:
-      - main  # Adjust this to the main branch or your default branch
+    # Pattern matched against refs/tags
+    tags:        
+      - '**'           # Push events to every tag including hierarchical tags like v1.0/beta
 
 jobs:
   publish:
