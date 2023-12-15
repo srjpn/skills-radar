@@ -48,12 +48,12 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
 
-      - name: Tag commit
-        if: steps.check-version.outcome == 'success'
-        run: |
-            git config user.name "${{ github.actor }}"
-            git config user.email "${{ github.actor }}@users.noreply.github.com"
-            git tag -a "v${{ steps.check-version.outputs.CURRENT_VERSION }}" -m "Release v${{ steps.check-version.outputs.CURRENT_VERSION }}"
-            git push origin "v${{ steps.check-version.outputs.CURRENT_VERSION }}"
-        env:
-            GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      # - name: Tag commit
+      #   if: steps.check-version.outcome == 'success'
+      #   run: |
+      #       git config user.name "${{ github.actor }}"
+      #       git config user.email "${{ github.actor }}@users.noreply.github.com"
+      #       git tag -a "v${{ steps.check-version.outputs.CURRENT_VERSION }}" -m "Release v${{ steps.check-version.outputs.CURRENT_VERSION }}"
+      #       git push origin "v${{ steps.check-version.outputs.CURRENT_VERSION }}"
+      #   env:
+      #       GH_TOKEN: ${{ secrets.GH_TOKEN }}
