@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/srjpn"
   },
-  "version": "1.0.12",
+  "version": "1.0.13",
   "scripts": {
     "build": "rollup -c"
   },
