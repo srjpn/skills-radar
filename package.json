@@ -32,12 +32,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
+  "types": "dist/types/index.d.ts",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/srjpn/skills-radar.git"
