@@ -11,7 +11,7 @@ module.exports = [
         file: "dist/index.js",
         format: "umd",
         sourcemap: true,
-        name: "skills-radar",
+        name: 'SkillRadar',
       },
     ],
     plugins: [
