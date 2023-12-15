@@ -1,30 +1,27 @@
 const resolve = require("@rollup/plugin-node-resolve");
 const commonjs = require("@rollup/plugin-commonjs");
 const typescript = require("@rollup/plugin-typescript");
+const {dts} = require("rollup-plugin-dts");
 const postcss = require("rollup-plugin-postcss");
-const peerDepsExternal = require('rollup-plugin-peer-deps-external');
+
+const packageJson = require("./package.json");
 
 module.exports = [
   {
     input: "src/index.ts",
-    output: 
+    output: [
       {
         file: "dist/index.js",
         format: "umd",
-        name: 'SkillRadar',
         sourcemap: true,
-        globals: {
-          react: 'React',
-          'react-dom': 'ReactDOM',
-        }
+        name: "skills-radar",
       },
+    ],
     plugins: [
-      peerDepsExternal(),
       resolve(),
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),
       postcss(),
     ],
-    external: ['react', 'react-dom'],
-  }
+  },
 ];

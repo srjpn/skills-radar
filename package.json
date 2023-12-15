@@ -4,34 +4,28 @@
     "registry": "https://npm.pkg.github.com/srjpn"
   },
   "version": "1.0.8",
-  "description": "",
   "scripts": {
-    "dev": "next dev",
-    "next-build": "next build",
-    "start": "next start",
-    "export": "next export",
-    "rollup": "rollup -c"
+    "build": "rollup -c"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sooraj Parameswaran",
   "license": "ISC",
   "dependencies": {
-    "d3": "^7.8.5"
+    "d3": "^7.8.5",
+    "rollup-plugin-import-css": "^3.3.5"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.5",
     "@types/d3": "^7.4.3",
-    "@types/node": "20.10.4",
-    "@types/react": "^18.2.43",
+    "@types/react": "^18.2.45",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rollup": "^4.7.0",
+    "rollup": "^4.9.0",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
-    "sass": "^1.69.5",
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
@@ -44,5 +38,14 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srjpn/skills-radar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/srjpn/skills-radar/issues"
+  },
+  "homepage": "https://github.com/srjpn/skills-radar#readme",
+  "description": ""
 }

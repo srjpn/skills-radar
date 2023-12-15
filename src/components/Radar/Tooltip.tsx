@@ -1,21 +1,21 @@
 import React from "react";
 import { Blip } from "./Blip";
 import { Icon } from "./Icon";
-import styles from '@/styles/Tooltip.module.css'
+import "./tooltip.css";
 
 export function Tooltip({ blip }: { blip: Blip }) {
   return (
-    <div className={styles.tooltip}>
-      <div className={styles.tooltipTitle}>
+    <div className={`tooltip`}>
+      <div className={`tooltip-title`}>
         <Icon tooltip blip={blip} />
         <b>{blip.label}</b>
       </div>
 
-      <div className={styles.tooltipStatusWrapper}>
-        <span className={styles.tooltipStatus}>{blip.status}</span>
+      <div className={`tooltip-statusWrapper`}>
+        <span className={`tooltip-status`}>{blip.status}</span>
       </div>
 
-      <div className={styles.tooltipCategory}>{blip.category}</div>
+      <div className={`tooltip-category`}>{blip.category}</div>
     </div>
   );
 }

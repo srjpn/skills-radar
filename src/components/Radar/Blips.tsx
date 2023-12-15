@@ -6,13 +6,13 @@ import { Tooltip } from "./Tooltip";
 import { Icon } from "./Icon";
 import { Entry, Status } from "./types";
 
-import styles from '@/styles/Blips.module.css'
+import "./blips.css";
 
 export function Blips({ entries, selected, setSelected }: Props) {
   const animatedBlips = useAnimatedBlips(entries);
 
   return (
-    <div className={styles.blips}>
+    <div className="blips">
       {animatedBlips.map((blip) => {
         return (
           <div
