@@ -29,22 +29,7 @@ jobs:
       - name: Build
         run: npm run build 
 
-      - name: Check for version change
-        id: check-version
-        run: |
-          CURRENT_VERSION=$(node -p "require('./package.json').version")
-          LAST_VERSION=$(git describe --tags --abbrev=0)
-          
-          echo "name=CURRENT_VERSION::$CURRENT_VERSION"
-          echo "name=LAST_VERSION::$LAST_VERSION"
-          
-          if [ "v$CURRENT_VERSION" = "$LAST_VERSION" ]; then
-            echo "No version change. Skipping publish."
-            exit 78  # Exit code 78 skips the rest of the job
-          fi
-
       - name: Publish to GitHub Packages
-        if: steps.check-version.outcome == 'success'
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
