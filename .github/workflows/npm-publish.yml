@@ -34,8 +34,8 @@ jobs:
           CURRENT_VERSION=$(node -p "require('./package.json').version")
           LAST_VERSION=$(git describe --tags --abbrev=0)
           
-          echo "::set-output name=CURRENT_VERSION::$CURRENT_VERSION"
-          echo "::set-output name=LAST_VERSION::$LAST_VERSION"
+          echo "name=CURRENT_VERSION::$CURRENT_VERSION"
+          echo "name=LAST_VERSION::$LAST_VERSION"
           
           if [ "v$CURRENT_VERSION" = "$LAST_VERSION" ]; then
             echo "No version change. Skipping publish."
