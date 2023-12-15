@@ -15,18 +15,30 @@ module.exports = [
         format: "umd",
         sourcemap: true,
         name: 'skills-radar',
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+        },
       },
       {
         file: packageJson.main,
         format: "cjs",
         sourcemap: true,
         name: 'skills-radar',
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+        },
       },
       {
         file: packageJson.module,
         format: "esm",
         sourcemap: true,
         name: 'skills-radar',
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+        },
       },
     ],
     plugins: [

@@ -20,8 +20,6 @@
     "@rollup/plugin-typescript": "^11.1.5",
     "@types/d3": "^7.4.3",
     "@types/react": "^18.2.45",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "rollup": "^4.9.0",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
@@ -32,7 +30,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "types": "dist/types/index.d.ts",
+  "types": "dist/index.d.ts",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
