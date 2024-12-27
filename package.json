@@ -1,6 +1,7 @@
 {
   "name": "tech-radar",
   "version": "2022.07",
+  "main": "src/index.ts",
   "license": "Apache-2.0",
   "homepage": "https://chocoapp.github.io/tech-radar",
   "devDependencies": {
