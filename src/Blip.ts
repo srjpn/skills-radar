@@ -1,4 +1,4 @@
-import { Entry, Category, status, categories } from "./types";
+import { Entry, status, categories } from "./types";
 import { rings } from "./constants";
 import {
   Polar,

@@ -2,15 +2,14 @@ import React, { useState, useEffect, Dispatch, SetStateAction } from "react";
 import * as d3 from "d3";
 
 import { Blip } from "../../Blip";
-import { blips } from "../../blips";
 import { Tooltip } from "./Tooltip";
 import { Icon } from "./Icon";
 import { Status } from "../../types";
 
 import "./blips.css";
 
-export function Blips({ selected, setSelected }: Props) {
-  const animatedBlips = useAnimatedBlips();
+export function Blips({ selected, setSelected, entries }: Props) {
+  const animatedBlips = useAnimatedBlips(entries);
 
   return (
     <div className="blips">
@@ -36,7 +35,7 @@ export function Blips({ selected, setSelected }: Props) {
   );
 }
 
-function useAnimatedBlips() {
+function useAnimatedBlips(entries: Blip[]) {
   const [animatedNodes, setAnimatedNodes] = useState<Blip[]>([]);
 
   useEffect(() => {
@@ -46,11 +45,11 @@ function useAnimatedBlips() {
       .force("collision", d3.forceCollide().radius(16).strength(0.15))
       .on("tick", () => {
         const newNodes = simulation.nodes();
-        const newBlips = blips.map((blip, i) => blip.update(newNodes[i]));
+        const newBlips = entries.map((blip, i) => blip.update(newNodes[i]));
 
         setAnimatedNodes(newBlips);
       })
-      .nodes(blips);
+      .nodes(entries);
 
     return () => {
       simulation.stop();
@@ -75,4 +74,5 @@ function getStatusId(status: Status): string {
 type Props = {
   selected?: string;
   setSelected: Dispatch<SetStateAction<string | undefined>>;
+  entries: Blip[];
 };
