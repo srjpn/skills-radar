@@ -3,6 +3,10 @@
   "version": "2022.07",
   "main": "dist/index.js",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srjpn/tech-radar.git"
+  },
   "homepage": "https://chocoapp.github.io/tech-radar",
   "devDependencies": {
     "@notionhq/client": "^2.0.0",
@@ -49,6 +53,9 @@
       "react-app/jest"
     ]
   },
+  "files": [
+    "build"
+  ],
   "browserslist": {
     "production": [
       ">0.2%",
