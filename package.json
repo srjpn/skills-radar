@@ -1,6 +1,6 @@
 {
   "name": "tech-radar",
-  "version": "2022.07",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "license": "Apache-2.0",
   "repository": {
