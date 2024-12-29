@@ -18,4 +18,4 @@ export type Entry = {
   icon: [IconType, string];
 };
 
-type IconType = "url" | "data" | "emoji" | "none";
+type IconType = "url" | "data" | "emoji" | "iconify" | "none";
