@@ -17,7 +17,7 @@
   },
   {
     "category": "Languages & Frameworks",
-    "status": "🌱 Growth",
+    "status": "🧠 Expert",
     "label": "Typescript",
     "icon": ["iconify", "skill-icons:typescript"],
     "originId": "d80d3a24-bd71-4043-b79a-f935a36e4601",
@@ -25,7 +25,7 @@
   },
   {
     "category": "Languages & Frameworks",
-    "status": "🔍 Explore",
+    "status": "🌱 Growth",
     "label": "Python",
     "icon": ["iconify", "logos:python"],
     "originId": "bf9819dc-187c-4201-933d-3133ad57c49f",
@@ -65,7 +65,7 @@
   },
   {
     "category": "Platforms",
-    "status": "🔍 Explore",
+    "status": "🌱 Growth",
     "label": "AWS CloudFormation",
     "icon": ["iconify", "logos:aws-cloudformation"],
     "originId": "e2f9b105-cb9e-4bb0-b15e-cb5e84555054",
@@ -81,7 +81,7 @@
   },
   {
     "category": "Platforms",
-    "status": "✋ Pause",
+    "status": "🌱 Growth",
     "label": "AWS SQS",
     "icon": ["iconify", "logos:aws-sqs"],
     "originId": "edb01363-8434-49a6-9269-f3f5d6be30e3",
@@ -89,7 +89,7 @@
   },
   {
     "category": "Languages & Frameworks",
-    "status": "🌱 Growth",
+    "status": "🧠 Expert",
     "label": "PostgreSQL",
     "icon": ["iconify", "logos:postgresql"],
     "originId": "add53c1d-49e7-4f14-94bb-0b7e9fbf88d2",
@@ -105,7 +105,7 @@
   },
   {
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "🧠 Expert",
     "label": "Docker",
     "icon": ["iconify", "logos:docker-icon"],
     "originId": "74b1c26c-9da6-45dc-b85d-d8bafabb9c43",
@@ -113,7 +113,7 @@
   },
   {
     "category": "Languages & Frameworks",
-    "status": "🔍 Explore",
+    "status": "🌱 Growth",
     "label": "React",
     "icon": ["iconify", "logos:react"],
     "originId": "d0401570-7b46-4803-9ae6-230e6c9db1ed",
@@ -149,6 +149,17 @@
     "label": "Microservices",
     "icon": ["iconify", "carbon:microservices-1"],
     "originId": "68eb03f4-6209-4c2f-947c-2cbf63502812",
-    "id": 18
+    "id": 19
+  },
+  {
+    "originId": "68eb03f4-6209-4c2f-947c-2cbf63502813",
+    "category": "Languages & Frameworks",
+    "status": "✋ Pause",
+    "label": "Ruby On Rails",
+    "icon": [
+      "iconify",
+      "logos:rails"
+    ],
+    "id": 20
   }
 ]
