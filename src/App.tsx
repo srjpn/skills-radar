@@ -7,9 +7,9 @@ import { Content } from "./components/Content";
 function App() {
   return (
     <>
-      {/* <Hero /> */}
+      <Hero />
       <Radar entries={entriesData as Entry[]} />
-      {/* <Content /> */}
+      <Content />
     </>
   );
 }

@@ -62,10 +62,10 @@ function useAnimatedBlips(entries: Blip[]) {
 
 function getStatusId(status: Status): string {
   const statusMap = {
-    "🚫 Hold": "hold",
-    "🚧 Try": "try",
-    "🤔 Reconsider": "reconsider",
-    "✅ Use": "use",
+    "✋ Pause": "pause",
+    "🌱 Growth": "growth",
+    "🔍 Explore": "explore",
+    "🧠 Expert": "expert",
   };
 
   return statusMap[status];

@@ -26,22 +26,22 @@
   border-radius: 24px;
 }
 
-.blip.use .icon {
+.blip.expert .icon {
   border: 1px solid var(--honeyDew);
   box-shadow: 0 0 6px var(--honeyDew);
 }
 
-.blip.try .icon {
+.blip.growth .icon {
   border: 1px solid var(--banana);
   box-shadow: 0 0 6px var(--banana);
 }
 
-.blip.reconsider .icon {
+.blip.explore .icon {
   border: 1px solid var(--gray500);
   box-shadow: 0 0 6px var(--gray500);
 }
 
-.blip.hold .icon {
+.blip.pause .icon {
   border: 1px solid var(--plum);
   box-shadow: 0 0 6px var(--plum);
 }
