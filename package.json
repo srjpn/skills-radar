@@ -1,10 +1,8 @@
 {
   "name": "skills-radar",
-  "version": "2022.07",
-  "license": "Apache-2.0",
+  "version": "0.01",
   "homepage": "https://srjpn.github.io/skills-radar",
   "devDependencies": {
-    "@notionhq/client": "^2.0.0",
     "@types/d3": "^7.4.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.11.44",
