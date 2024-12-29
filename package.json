@@ -1,8 +1,8 @@
 {
-  "name": "tech-radar",
+  "name": "skills-radar",
   "version": "2022.07",
   "license": "Apache-2.0",
-  "homepage": "https://chocoapp.github.io/tech-radar",
+  "homepage": "https://srjpn.github.io/skills-radar",
   "devDependencies": {
     "@notionhq/client": "^2.0.0",
     "@types/d3": "^7.4.0",
