@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/skills-radar/static/css/main.a083d3b1.css",
+    "main.js": "/skills-radar/static/js/main.b1bbd0e8.js",
+    "index.html": "/skills-radar/index.html",
+    "main.a083d3b1.css.map": "/skills-radar/static/css/main.a083d3b1.css.map",
+    "main.b1bbd0e8.js.map": "/skills-radar/static/js/main.b1bbd0e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a083d3b1.css",
+    "static/js/main.b1bbd0e8.js"
+  ]
+}
