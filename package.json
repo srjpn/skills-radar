@@ -1,6 +1,6 @@
 {
   "name": "skills-radar",
-  "version": "0.01",
+  "version": "0.1",
   "homepage": "https://srjpn.github.io/skills-radar",
   "devDependencies": {
     "@types/d3": "^7.4.0",
