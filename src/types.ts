@@ -6,7 +6,7 @@ export const categories = [
 ] as const;
 export type Category = typeof categories[number];
 
-export const status = ["🧠 Expert", "🌱 Growth", "🔍 Explore", "✋ Pause"] as const;
+export const status = ["Expert", "Growth", "Explore", "Pause"] as const;
 export type Status = typeof status[number];
 
 export type Entry = {

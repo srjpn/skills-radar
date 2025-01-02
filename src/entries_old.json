@@ -2,7 +2,7 @@
   {
     "originId": "ba8d4a15-15d3-47d7-9863-ccf6956a4ff1",
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "AWS Glue",
     "icon": [
       "url",
@@ -13,7 +13,7 @@
   {
     "originId": "cb7ac52c-801c-4b77-954c-75caca0a7530",
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Airflow",
     "icon": [
       "url",
@@ -24,7 +24,7 @@
   {
     "originId": "6fa6dbff-6823-4479-9e3a-fa02b051936f",
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Athena",
     "icon": [
       "data",
@@ -35,7 +35,7 @@
   {
     "originId": "90bbd9f6-5155-4290-bccd-a6c013114c09",
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Bitrise",
     "icon": [
       "data",
@@ -46,7 +46,7 @@
   {
     "originId": "c864267f-a5d7-40f0-b8cd-bd7ff862003d",
     "category": "Platforms",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "CDK",
     "icon": [
       "url",
@@ -57,7 +57,7 @@
   {
     "originId": "b78f871f-a27a-4498-ba0f-acb8d48c5724",
     "category": "Platforms",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Cognito",
     "icon": [
       "url",
@@ -68,7 +68,7 @@
   {
     "originId": "78e5befe-1027-4262-ad8d-b3df4692184a",
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "DataDog",
     "icon": [
       "url",
@@ -79,7 +79,7 @@
   {
     "originId": "8340ce44-bad1-4e7f-ab5e-47c019573e2c",
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "DynamoDB",
     "icon": [
       "url",
@@ -90,7 +90,7 @@
   {
     "originId": "9a42bf41-7dca-46d3-ad1b-82af2e5929ff",
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Emotion",
     "icon": [
       "url",
@@ -101,7 +101,7 @@
   {
     "originId": "a5d99c5c-5db0-40ce-8fe9-8969cc318d7d",
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Firehose",
     "icon": [
       "url",
@@ -112,7 +112,7 @@
   {
     "originId": "c7b96e3f-fa82-4ffa-81c6-47e69bbd29b3",
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Flutter",
     "icon": [
       "url",
@@ -123,7 +123,7 @@
   {
     "originId": "5952c86f-29d1-443c-afc7-043ed6f57075",
     "category": "Techniques",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "GraphQL",
     "icon": [
       "url",
@@ -134,7 +134,7 @@
   {
     "originId": "4f8bd22b-8681-4adb-b66d-e2b65d1553e9",
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Haystack",
     "icon": [
       "emoji",
@@ -145,7 +145,7 @@
   {
     "originId": "80cf8649-5187-4be9-9943-388f87ee4e2a",
     "category": "Techniques",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Hexagonal architecture",
     "icon": [
       "url",
@@ -156,7 +156,7 @@
   {
     "originId": "b2816c15-e2f7-4019-b94b-ed2a7dd8e375",
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Jetpack Compose",
     "icon": [
       "url",
@@ -167,7 +167,7 @@
   {
     "originId": "09c760ef-2d12-4f16-9170-06d32dcd3eac",
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Kaspresso",
     "icon": [
       "none",
@@ -178,7 +178,7 @@
   {
     "originId": "4879a6b3-7b0b-4d53-bffc-d25d3b00d1fb",
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Kotlin",
     "icon": [
       "url",
@@ -189,7 +189,7 @@
   {
     "originId": "b5a263cf-b9c0-4396-8208-d8333886defb",
     "category": "Platforms",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Lambda",
     "icon": [
       "url",
@@ -200,7 +200,7 @@
   {
     "originId": "b9b95a41-3f18-4895-937b-002bf061923a",
     "category": "Techniques",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Microfrontends",
     "icon": [
       "emoji",
@@ -211,7 +211,7 @@
   {
     "originId": "b41df950-702d-4156-ae08-30e77c2d333e",
     "category": "Techniques",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Native modules",
     "icon": [
       "url",
@@ -222,7 +222,7 @@
   {
     "originId": "b32c43ff-f858-4d94-b15e-4aa60adfbb38",
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Paparazzi",
     "icon": [
       "none",
@@ -233,7 +233,7 @@
   {
     "originId": "34633681-c0a3-4ae6-a4b0-25bbe56f3213",
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Python",
     "icon": [
       "url",
@@ -244,7 +244,7 @@
   {
     "originId": "72fcfa13-1458-4120-84f9-d5acccf195f2",
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "React",
     "icon": [
       "url",
@@ -255,7 +255,7 @@
   {
     "originId": "b2ed3677-9c3d-4dac-b522-4fba8ab4235e",
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Renovate",
     "icon": [
       "url",
@@ -266,7 +266,7 @@
   {
     "originId": "92b598c7-83b2-4899-825d-35f48ddfcf2a",
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "RxJS",
     "icon": [
       "url",
@@ -277,7 +277,7 @@
   {
     "originId": "09344b90-b0f6-4e36-a847-6f2ed21a146c",
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "SNS + SQS",
     "icon": [
       "url",
@@ -288,7 +288,7 @@
   {
     "originId": "b4da7553-d78b-4167-afdb-dfcdcf75f12a",
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Sentry",
     "icon": [
       "url",
@@ -299,7 +299,7 @@
   {
     "originId": "4460e199-5370-4c20-915f-680110b96346",
     "category": "Techniques",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Step Function Local Testing",
     "icon": [
       "none",
@@ -310,7 +310,7 @@
   {
     "originId": "59db2e05-931c-45b0-bd06-56c153c97567",
     "category": "Platforms",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Step Functions",
     "icon": [
       "url",
@@ -321,7 +321,7 @@
   {
     "originId": "7451d06a-c303-4532-81fd-76d102fa572e",
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Swift",
     "icon": [
       "data",
@@ -332,7 +332,7 @@
   {
     "originId": "e9c2bfb4-9568-4eac-9873-2bff4ff88e2f",
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "SwiftUI",
     "icon": [
       "data",
@@ -343,7 +343,7 @@
   {
     "originId": "8226c143-739a-4897-825f-8a1a5c1182e4",
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Theme UI",
     "icon": [
       "emoji",
@@ -354,7 +354,7 @@
   {
     "originId": "e5e59672-a9eb-4723-b3d3-27b99740f4e9",
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "TypeScript",
     "icon": [
       "url",
@@ -365,7 +365,7 @@
   {
     "originId": "55386818-be1f-4fb3-a3af-8f63849be464",
     "category": "Platforms",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "WAF",
     "icon": [
       "url",
@@ -376,7 +376,7 @@
   {
     "originId": "a6ac7ca0-bcf0-419c-bc19-517918a0a4d8",
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "esbuild",
     "icon": [
       "url",
@@ -387,7 +387,7 @@
   {
     "originId": "92021011-3a6b-45ed-8c7e-a112b692563d",
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "nx",
     "icon": [
       "url",
@@ -398,7 +398,7 @@
   {
     "originId": "d55016fb-b09a-422d-9055-2e4199ce8b0d",
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "single-spa",
     "icon": [
       "url",
@@ -409,7 +409,7 @@
   {
     "originId": "64768b1a-0bbe-4f9c-aac7-a615dd002467",
     "category": "Languages & Frameworks",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "AWS Lambda powertools",
     "icon": [
       "url",
@@ -420,7 +420,7 @@
   {
     "originId": "c5e84384-bfee-4062-9c8b-3a9936d012b4",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Apollo Studio",
     "icon": [
       "url",
@@ -431,7 +431,7 @@
   {
     "originId": "acd0f4db-35bf-456c-ab09-05cbad0e44c0",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Buildjet",
     "icon": [
       "none",
@@ -442,7 +442,7 @@
   {
     "originId": "ca6ad607-7a72-4043-ac05-df9b8e89dc1b",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Burpsuite community edition",
     "icon": [
       "none",
@@ -453,7 +453,7 @@
   {
     "originId": "b089fd26-3671-4526-b941-2b25f0ec9099",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Code Stream",
     "icon": [
       "url",
@@ -464,7 +464,7 @@
   {
     "originId": "6ced348c-4eee-4133-b06b-7e16c38cbaa6",
     "category": "Techniques",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Contract Testing",
     "icon": [
       "none",
@@ -475,7 +475,7 @@
   {
     "originId": "9751ac6d-d5bf-44b6-8ecd-962aebb0c424",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Cypress Component Testing",
     "icon": [
       "emoji",
@@ -486,7 +486,7 @@
   {
     "originId": "1d5588f9-4344-4600-af15-8a196135b0be",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "DoubleLoop",
     "icon": [
       "url",
@@ -497,7 +497,7 @@
   {
     "originId": "25259a98-c8f4-45cf-adf2-6b7f8440f761",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Elasticache",
     "icon": [
       "none",
@@ -508,7 +508,7 @@
   {
     "originId": "e8490d3e-0322-4fb2-966e-3349b575bb14",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Event Bridge",
     "icon": [
       "url",
@@ -519,7 +519,7 @@
   {
     "originId": "ee36f6b9-210b-40e5-916c-b796cf04bb06",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "GitHub CoPilot",
     "icon": [
       "none",
@@ -530,7 +530,7 @@
   {
     "originId": "df90671a-6a6c-4ba6-bdab-521693a15214",
     "category": "Techniques",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "GraphQL Federation",
     "icon": [
       "url",
@@ -541,7 +541,7 @@
   {
     "originId": "af07ea63-4b90-4c03-b8dc-4769341a0754",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Hydra",
     "icon": [
       "url",
@@ -552,7 +552,7 @@
   {
     "originId": "2eb11bda-8abf-41b0-bc78-c248caa483ab",
     "category": "Platforms",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "K8s",
     "icon": [
       "url",
@@ -563,7 +563,7 @@
   {
     "originId": "00d7774e-cd04-4ba3-af81-750d3200a5fe",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Linear",
     "icon": [
       "url",
@@ -574,7 +574,7 @@
   {
     "originId": "4e8dc759-e9d2-4a3f-9468-8a455b388f94",
     "category": "Techniques",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Monorepo",
     "icon": [
       "url",
@@ -585,7 +585,7 @@
   {
     "originId": "44eeddcf-1771-4300-9e67-ade3357f2353",
     "category": "Languages & Frameworks",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Nest.Js",
     "icon": [
       "url",
@@ -596,7 +596,7 @@
   {
     "originId": "f429fe83-b1c8-4d4a-b43d-db11c57a23b4",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "OpsLevel",
     "icon": [
       "url",
@@ -607,7 +607,7 @@
   {
     "originId": "144643a6-2f4b-4fcb-a992-1f5fc89cd583",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Opsgenie",
     "icon": [
       "url",
@@ -618,7 +618,7 @@
   {
     "originId": "e6c99b3c-5b87-466f-8782-f52075d2a1ed",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Pact.js ",
     "icon": [
       "none",
@@ -629,7 +629,7 @@
   {
     "originId": "9b731d7f-aba5-4eff-9797-358d0730b2d0",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "PostgreSQL",
     "icon": [
       "url",
@@ -640,7 +640,7 @@
   {
     "originId": "964deb20-a5e6-4ea0-bc2e-d2461c880eec",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Postman",
     "icon": [
       "none",
@@ -651,7 +651,7 @@
   {
     "originId": "155d6d64-fbc4-4b35-a232-3c7e2c136d93",
     "category": "Platforms",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "SST",
     "icon": [
       "url",
@@ -662,7 +662,7 @@
   {
     "originId": "cbbd4d15-93a7-494c-9e31-4f8d0dcc8c7c",
     "category": "Tools",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Tuist",
     "icon": [
       "data",
@@ -673,7 +673,7 @@
   {
     "originId": "0177c619-8815-4862-8650-44f2f8567b6f",
     "category": "Techniques",
-    "status": "✋ Pause",
+    "status": "Pause",
     "label": "AppCheck",
     "icon": [
       "url",
@@ -684,7 +684,7 @@
   {
     "originId": "f5ee1afb-576a-4fdd-90b0-6344be2224a6",
     "category": "Platforms",
-    "status": "✋ Pause",
+    "status": "Pause",
     "label": "CloudFormation",
     "icon": [
       "url",
@@ -695,7 +695,7 @@
   {
     "originId": "0e232578-9195-41b9-9ff9-ecbe796a298a",
     "category": "Tools",
-    "status": "✋ Pause",
+    "status": "Pause",
     "label": "Epsagon",
     "icon": [
       "url",
@@ -706,7 +706,7 @@
   {
     "originId": "8499eb11-b5bb-4fc0-bbd0-a4d7cd978b23",
     "category": "Tools",
-    "status": "✋ Pause",
+    "status": "Pause",
     "label": "Kibana",
     "icon": [
       "url",
@@ -717,7 +717,7 @@
   {
     "originId": "f042362a-1201-4333-8144-4e0015d79e2c",
     "category": "Languages & Frameworks",
-    "status": "🔍 Explore",
+    "status": "Explore",
     "label": "AWS SAM",
     "icon": [
       "none",
@@ -728,7 +728,7 @@
   {
     "originId": "8d1c6f89-b912-45f9-ae6f-6ec526cc2130",
     "category": "Platforms",
-    "status": "🔍 Explore",
+    "status": "Explore",
     "label": "AppSync",
     "icon": [
       "url",
@@ -739,7 +739,7 @@
   {
     "originId": "2f4791c3-2fef-4d9d-a8c6-ec1c8dedfd6c",
     "category": "Tools",
-    "status": "🔍 Explore",
+    "status": "Explore",
     "label": "HackerOne",
     "icon": [
       "url",
@@ -750,7 +750,7 @@
   {
     "originId": "d3bff305-ab7f-485f-9302-a06a8375a050",
     "category": "Tools",
-    "status": "🔍 Explore",
+    "status": "Explore",
     "label": "PagerDuty",
     "icon": [
       "url",
@@ -761,7 +761,7 @@
   {
     "originId": "6802bd6e-5e31-4b99-8474-a967597a9359",
     "category": "Tools",
-    "status": "🔍 Explore",
+    "status": "Explore",
     "label": "Xcode Cloud",
     "icon": [
       "url",

@@ -1,165 +1,277 @@
 [
   {
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Dotnet Core",
-    "icon": ["iconify", "devicon:dotnetcore"],
+    "icon": [
+      "iconify",
+      "devicon:dotnetcore"
+    ],
     "originId": "5c64d9d1-63c8-463d-bf35-f541105d2af9",
     "id": 1
   },
   {
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "NodeJs",
-    "icon": ["iconify", "logos:nodejs"],
+    "icon": [
+      "iconify",
+      "logos:nodejs"
+    ],
     "originId": "b13f4a74-7866-4891-b546-66587280c52e",
     "id": 2
   },
   {
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Typescript",
-    "icon": ["iconify", "skill-icons:typescript"],
+    "icon": [
+      "iconify",
+      "skill-icons:typescript"
+    ],
     "originId": "d80d3a24-bd71-4043-b79a-f935a36e4601",
     "id": 3
   },
   {
     "category": "Languages & Frameworks",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Python",
-    "icon": ["iconify", "logos:python"],
+    "icon": [
+      "iconify",
+      "logos:python"
+    ],
     "originId": "bf9819dc-187c-4201-933d-3133ad57c49f",
     "id": 4
   },
   {
     "category": "Languages & Frameworks",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Django",
-    "icon": ["iconify", "vscode-icons:file-type-django"],
+    "icon": [
+      "iconify",
+      "vscode-icons:file-type-django"
+    ],
     "originId": "6309aa71-5c6f-4d09-a92a-73354dc68c9a",
     "id": 5
   },
   {
     "category": "Languages & Frameworks",
-    "status": "🔍 Explore",
+    "status": "Explore",
     "label": "Scala",
-    "icon": ["iconify", "logos:scala"],
+    "icon": [
+      "iconify",
+      "logos:scala"
+    ],
     "originId": "60a5cc0b-c7e8-4648-97da-6ec4fc7b1ca3",
     "id": 6
   },
   {
     "category": "Platforms",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "AWS",
-    "icon": ["iconify", "logos:aws"],
+    "icon": [
+      "iconify",
+      "logos:aws"
+    ],
     "originId": "8f2f0dbf-2337-4f78-bf35-8191c60d682f",
     "id": 7
   },
   {
     "category": "Platforms",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "AWS Cognito",
-    "icon": ["iconify", "logos:aws-cognito"],
+    "icon": [
+      "iconify",
+      "logos:aws-cognito"
+    ],
     "originId": "d0227a89-b0bb-46c6-b85b-53cb3206cd60",
     "id": 8
   },
   {
     "category": "Platforms",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "AWS CloudFormation",
-    "icon": ["iconify", "logos:aws-cloudformation"],
+    "icon": [
+      "iconify",
+      "logos:aws-cloudformation"
+    ],
     "originId": "e2f9b105-cb9e-4bb0-b15e-cb5e84555054",
     "id": 9
   },
   {
     "category": "Platforms",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "AWS Lambda",
-    "icon": ["iconify", "logos:aws-lambda"],
+    "icon": [
+      "iconify",
+      "logos:aws-lambda"
+    ],
     "originId": "0a0e21b3-6e26-4d8a-a2c0-3925ee47790f",
     "id": 10
   },
   {
     "category": "Platforms",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "AWS SQS",
-    "icon": ["iconify", "logos:aws-sqs"],
+    "icon": [
+      "iconify",
+      "logos:aws-sqs"
+    ],
     "originId": "edb01363-8434-49a6-9269-f3f5d6be30e3",
     "id": 11
   },
   {
     "category": "Languages & Frameworks",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "PostgreSQL",
-    "icon": ["iconify", "logos:postgresql"],
+    "icon": [
+      "iconify",
+      "logos:postgresql"
+    ],
     "originId": "add53c1d-49e7-4f14-94bb-0b7e9fbf88d2",
     "id": 12
   },
   {
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Github",
-    "icon": ["iconify", "akar-icons:github-fill"],
+    "icon": [
+      "iconify",
+      "akar-icons:github-fill"
+    ],
     "originId": "f50eecab-2b30-46de-85a2-4d3d2443d8c1",
     "id": 13
   },
   {
     "category": "Tools",
-    "status": "🧠 Expert",
+    "status": "Expert",
     "label": "Docker",
-    "icon": ["iconify", "logos:docker-icon"],
+    "icon": [
+      "iconify",
+      "logos:docker-icon"
+    ],
     "originId": "74b1c26c-9da6-45dc-b85d-d8bafabb9c43",
     "id": 14
   },
   {
     "category": "Languages & Frameworks",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "React",
-    "icon": ["iconify", "logos:react"],
+    "icon": [
+      "iconify",
+      "logos:react"
+    ],
     "originId": "d0401570-7b46-4803-9ae6-230e6c9db1ed",
     "id": 15
   },
   {
     "category": "Languages & Frameworks",
-    "status": "✋ Pause",
+    "status": "Pause",
     "label": "Angular",
-    "icon": ["iconify", "devicon:angular"],
+    "icon": [
+      "iconify",
+      "devicon:angular"
+    ],
     "originId": "85673e92-e452-4f33-aeca-e63ae56af527",
     "id": 16
   },
   {
     "category": "Languages & Frameworks",
-    "status": "🌱 Growth",
+    "status": "Explore",
     "label": "NextJs",
-    "icon": ["iconify", "logos:nextjs"],
+    "icon": [
+      "iconify",
+      "logos:nextjs"
+    ],
     "originId": "bce8568d-798e-426d-9ed1-f1a8010a700b",
     "id": 17
   },
   {
     "category": "Languages & Frameworks",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "CSS",
-    "icon": ["iconify", "logos:css-3"],
+    "icon": [
+      "iconify",
+      "logos:css-3"
+    ],
     "originId": "68eb03f4-6209-4c2f-947c-2cbf63502811",
     "id": 18
   },
   {
     "category": "Techniques",
-    "status": "🌱 Growth",
+    "status": "Growth",
     "label": "Microservices",
-    "icon": ["iconify", "carbon:microservices-1"],
+    "icon": [
+      "iconify",
+      "carbon:microservices-1"
+    ],
     "originId": "68eb03f4-6209-4c2f-947c-2cbf63502812",
     "id": 19
   },
   {
     "originId": "68eb03f4-6209-4c2f-947c-2cbf63502813",
     "category": "Languages & Frameworks",
-    "status": "✋ Pause",
+    "status": "Pause",
     "label": "Ruby On Rails",
     "icon": [
       "iconify",
       "logos:rails"
     ],
     "id": 20
+  },
+  {
+    "originId": "68eb03f4-6209-4c2f-947c-2cbf63502814",
+    "category": "Languages & Frameworks",
+    "status": "Pause",
+    "label": "Ruby On Rails",
+    "icon": [
+      "iconify",
+      "logos:rails"
+    ],
+    "id": 20
+  },
+  {
+    "originId": "1e3f57ae-8bf8-4b29-80a4-7269a134add8",
+    "category": "Techniques",
+    "status": "Growth",
+    "label": "GraphQL",
+    "icon": [
+      "iconify",
+      "logos:graphql"
+    ],
+    "id": 21
+  },
+  {
+    "originId": "9c02d8b7-e90f-42b5-8655-7a9314d0e80e",
+    "category": "Techniques",
+    "status": "Expert",
+    "label": "REST APIs",
+    "icon": [
+      "iconify",
+      "mdi:api"
+    ],
+    "id": 22
+  },
+  {
+    "originId": "3a91dd79-c5b0-49c2-ae73-3ac690848bcb",
+    "category": "Techniques",
+    "status": "Growth",
+    "label": "CI/CD",
+    "icon": [
+      "iconify",
+      "vscode-icons:file-type-circleci"
+    ],
+    "id": 23
+  },
+  {
+    "originId": "69d2a3c7-9b15-43e4-941e-c6d8708b1bb8",
+    "category": "Techniques",
+    "status": "Pause",
+    "label": "Contract Testing",
+    "icon": [
+      "iconify",
+      "ic:baseline-handshake"
+    ],
+    "id": 24
   }
 ]
