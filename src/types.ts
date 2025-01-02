@@ -16,6 +16,8 @@ export type Entry = {
   status: Status;
   label: string;
   icon: [IconType, string];
+  link?: string;
+  description?: string;
 };
 
 type IconType = "url" | "data" | "emoji" | "iconify" | "none";
