@@ -21,40 +21,51 @@ const proficiencyLevels = [
 ];
 
 const generateReadableContent = () => {
-    // Initialize accumulator with all categories and status types
-    const initialAcc: Record<Category, Record<Status, Entry[]>> = categories.reduce((catAcc, category) => {
-        catAcc[category] = status.reduce((statusAcc, stat) => {
-            statusAcc[stat] = [];
-            return statusAcc;
-        }, {} as Record<Status, Entry[]>);
-        return catAcc;
-    }, {} as Record<Category, Record<Status, Entry[]>>);
+    // Initialize accumulator with all status and category types
+    const initialAcc: Record<Status, Record<Category, Entry[]>> = status.reduce((statusAcc, stat) => {
+        statusAcc[stat] = categories.reduce((catAcc, category) => {
+            catAcc[category] = [];
+            return catAcc;
+        }, {} as Record<Category, Entry[]>);
+        return statusAcc;
+    }, {} as Record<Status, Record<Category, Entry[]>>);
 
-    // Group entries by category and status
+    // Group entries by status and category
     const groupedEntries = (entries as Entry[]).reduce((acc, entry) => {
-        acc[entry.category][entry.status].push(entry);
+        acc[entry.status][entry.category].push(entry);
         return acc;
     }, initialAcc);
 
     // Generate human-readable text
-    let content = "Tech Radar - Skills Overview\n\n";
+    let content = "# Tech Radar - Skills Overview\n\n";
 
-    Object.entries(groupedEntries).forEach(([category, statusGroups]) => {
-        content += `# ${category}\n\n`;
+    // Find proficiency level description by status
+    const getDescription = (statusTitle: string) => {
+        const level = proficiencyLevels.find(level => level.title === statusTitle);
+        return level ? level.description : '';
+    };
 
-        Object.entries(statusGroups).forEach(([status, items]) => {
-            content += `## ${status}\n`;
-            items.forEach((item: Entry) => {
-                content += `- ${item.label}\n`;
-            });
-            content += '\n';
+    Object.entries(groupedEntries).forEach(([status, categoryGroups]) => {
+        content += `## ${status}\n\n`;
+        content += `${getDescription(status)}\n\n`;
+
+        Object.entries(categoryGroups).forEach(([category, items]) => {
+            if (items.length > 0) {
+                content += `### ${category}\n`;
+                items.forEach((item: Entry) => {
+                    const label = item.link 
+                        ? `[${item.label}](${item.link})`
+                        : item.label;
+                    content += `- ${label}`;
+                    if (item.description) {
+                        content += `\n  ${item.description}`;
+                    }
+                    content += '\n';
+                });
+                content += '\n';
+            }
         });
-    });
-
-    // Add footer with proficiency level descriptions
-    content += "\n# Proficiency Levels\n\n";
-    proficiencyLevels.forEach(level => {
-        content += `## ${level.title}\n${level.description}\n\n`;
+        content += '\n';
     });
 
     return content;
