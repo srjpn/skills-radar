@@ -220,17 +220,6 @@
     "id": 20
   },
   {
-    "originId": "68eb03f4-6209-4c2f-947c-2cbf63502814",
-    "category": "Languages & Frameworks",
-    "status": "Pause",
-    "label": "Ruby On Rails",
-    "icon": [
-      "iconify",
-      "logos:rails"
-    ],
-    "id": 20
-  },
-  {
     "originId": "1e3f57ae-8bf8-4b29-80a4-7269a134add8",
     "category": "Techniques",
     "status": "Growth",
@@ -273,5 +262,16 @@
       "ic:baseline-handshake"
     ],
     "id": 24
+  },
+  {
+    "originId": "28f5e376-78cf-4c2d-93c6-07bdb72d1cd8",
+    "category": "Platforms",
+    "status": "Explore",
+    "label": "GCP",
+    "icon": [
+      "iconify",
+      "logos:google-cloud"
+    ],
+    "id": 25
   }
 ]
