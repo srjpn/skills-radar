@@ -112,5 +112,29 @@
     "icon": ["iconify", "logos:rails"],
     "originId": "68eb03f4-6209-4c2f-947c-2cbf63502813",
     "id": "languages-frameworks-12"
+  },
+  {
+    "category": "Languages & Frameworks",
+    "status": "Expert",
+    "label": "NestJs",
+    "icon": ["iconify", "logos:nestjs"],
+    "originId": "68eb03f4-6209-4c2f-947c-2cbf63502814",
+    "id": "languages-frameworks-13"
+  },
+  {
+    "category": "Languages & Frameworks",
+    "status": "Explore",
+    "label": "Java",
+    "icon": ["iconify", "logos:java"],
+    "originId": "68eb03f4-6209-4c2f-947c-2cbf63502815",
+    "id": "languages-frameworks-14"
+  },
+  {
+    "category": "Languages & Frameworks",
+    "status": "Explore",
+    "label": "MongoDB",
+    "icon": ["iconify", "logos:mongodb"],
+    "originId": "68eb03f4-6209-4c2f-947c-2cbf63502816",
+    "id": "languages-frameworks-15"
   }
 ] 
