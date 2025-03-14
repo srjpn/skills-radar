@@ -1,15 +1,14 @@
 import { Hero } from "./components/Hero";
-import entriesData from "./entries.json";
-import { Entry } from "./types";
 import { Radar } from "./components/Radar";
 import { ProficiencyLevelGuide } from "./components/ProficiencyLevelGuide";
 import { DownloadSkills } from "./components/DownloadSkills";
+import { getAllEntries } from "./data";
 
 function App() {
   return (
     <>
       <Hero />
-      <Radar entries={entriesData as Entry[]} />
+      <Radar entries={getAllEntries()} />
       <ProficiencyLevelGuide />
       <DownloadSkills />
     </>

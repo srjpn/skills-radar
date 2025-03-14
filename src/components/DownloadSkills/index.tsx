@@ -1,23 +1,8 @@
-import { Entry, Category, Status, categories, status } from "../../types";
-import entries from "../../entries.json";
+import { Entry } from "../../types";
 import { proficiencyLevels } from "../../data/proficiencyLevels";
+import { getAllEntries, getGroupedEntries } from "../../data";
 
 const generateReadableContent = () => {
-    // Initialize accumulator with all status and category types
-    const initialAcc: Record<Status, Record<Category, Entry[]>> = status.reduce((statusAcc, stat) => {
-        statusAcc[stat] = categories.reduce((catAcc, category) => {
-            catAcc[category] = [];
-            return catAcc;
-        }, {} as Record<Category, Entry[]>);
-        return statusAcc;
-    }, {} as Record<Status, Record<Category, Entry[]>>);
-
-    // Group entries by status and category
-    const groupedEntries = (entries as Entry[]).reduce((acc, entry) => {
-        acc[entry.status][entry.category].push(entry);
-        return acc;
-    }, initialAcc);
-
     // Generate human-readable text
     let content = "# Tech Radar - Skills Overview\n\n";
 
@@ -27,7 +12,7 @@ const generateReadableContent = () => {
         return level ? level.description : '';
     };
 
-    Object.entries(groupedEntries).forEach(([status, categoryGroups]) => {
+    Object.entries(getGroupedEntries(getAllEntries())).forEach(([status, categoryGroups]) => {
         content += `## ${status}\n\n`;
         content += `${getDescription(status)}\n\n`;
 
