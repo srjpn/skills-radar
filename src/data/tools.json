@@ -1,0 +1,111 @@
+[
+  {
+    "category": "Tools",
+    "status": "Expert",
+    "label": "Docker",
+    "icon": ["iconify", "logos:docker-icon"],
+    "originId": "74b1c26c-9da6-45dc-b85d-d8bafabb9c43",
+    "id": "tools-1",
+    "link": "https://www.docker.com/"
+  },
+  {
+    "category": "Tools",
+    "status": "Expert",
+    "label": "VS Code",
+    "icon": ["iconify", "logos:visual-studio-code"],
+    "originId": "cf38b3b2-dff2-40f0-8815-d7d32c4de7a5",
+    "id": "tools-2"
+  },
+  {
+    "category": "Tools",
+    "status": "Growth",
+    "label": "Postman",
+    "icon": ["iconify", "logos:postman-icon"],
+    "originId": "ed427e8a-3bd8-4268-9855-ced82b9c00d4",
+    "id": "tools-3"
+  },
+  {
+    "category": "Tools",
+    "status": "Growth",
+    "label": "Slack",
+    "icon": ["iconify", "logos:slack-icon"],
+    "originId": "bc6c78d1-efc8-42ad-b3a3-c83e4b9b3084",
+    "id": "tools-4"
+  },
+  {
+    "category": "Tools",
+    "status": "Expert",
+    "label": "Trello",
+    "icon": ["iconify", "logos:trello"],
+    "originId": "d3b9e9db-82e5-41d5-b2b1-3bc1e223d8b4",
+    "id": "tools-5"
+  },
+  {
+    "category": "Tools",
+    "status": "Growth",
+    "label": "Jira",
+    "icon": ["iconify", "logos:jira"],
+    "originId": "52844a19-0f5d-45a1-8f94-230c3e0ff703",
+    "id": "tools-6"
+  },
+  {
+    "category": "Tools",
+    "status": "Explore",
+    "label": "Figma",
+    "icon": ["iconify", "logos:figma"],
+    "originId": "82b0db5c-2403-45f5-a8d1-b21a2f1e3e1f",
+    "id": "tools-7"
+  },
+  {
+    "category": "Tools",
+    "status": "Explore",
+    "label": "Notion",
+    "icon": ["iconify", "logos:notion"],
+    "originId": "be182c83-7b09-49a4-a5b4-64c202fa1174",
+    "id": "tools-8"
+  },
+  {
+    "category": "Tools",
+    "status": "Pause",
+    "label": "Sentry",
+    "icon": ["iconify", "logos:sentry-icon"],
+    "originId": "d4e92f3e-f0a8-4a3b-a43a-071e22b0b2f6",
+    "id": "tools-9"
+  },
+  {
+    "category": "Tools",
+    "status": "Explore",
+    "label": "Grafana",
+    "icon": ["iconify", "logos:grafana"],
+    "originId": "7b5be973-5b7d-490e-9f5d-d22150d49ff1",
+    "id": "tools-10",
+    "link": "https://grafana.com/",
+    "description": "An open-source analytics and monitoring solution for every database."
+  },
+  {
+    "category": "Tools",
+    "status": "Expert",
+    "label": "Zoom",
+    "icon": ["iconify", "logos:zoom"],
+    "originId": "a12fbc34-3c5d-4b9b-9503-1e81f77e7b62",
+    "id": "tools-11"
+  },
+  {
+    "category": "Tools",
+    "status": "Growth",
+    "label": "GitHub Actions",
+    "icon": ["iconify", "logos:github-actions"],
+    "originId": "be54e7d9-b1a1-4cf6-a3db-0f6278db3176",
+    "id": "tools-12"
+  },
+  {
+    "category": "Tools",
+    "status": "Expert",
+    "label": "Git",
+    "icon": ["iconify", "logos:git-icon"],
+    "originId": "e589ba84-a1ec-4d3f-b17b-61df5e36b92c",
+    "id": "tools-13",
+    "link": "https://git-scm.com/",
+    "description": "A distributed version control system for tracking changes in source code during software development."
+  }
+] 

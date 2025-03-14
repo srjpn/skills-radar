@@ -1,0 +1,210 @@
+[
+  {
+    "category": "Techniques",
+    "status": "Growth",
+    "label": "Microservices",
+    "icon": ["iconify", "carbon:microservices-1"],
+    "originId": "68eb03f4-6209-4c2f-947c-2cbf63502812",
+    "id": "techniques-19"
+  },
+  {
+    "category": "Techniques",
+    "status": "Growth",
+    "label": "GraphQL",
+    "icon": ["iconify", "logos:graphql"],
+    "originId": "1e3f57ae-8bf8-4b29-80a4-7269a134add8",
+    "id": "techniques-21"
+  },
+  {
+    "category": "Techniques",
+    "status": "Expert",
+    "label": "REST APIs",
+    "icon": ["iconify", "mdi:api"],
+    "originId": "9c02d8b7-e90f-42b5-8655-7a9314d0e80e",
+    "id": "techniques-22"
+  },
+  {
+    "category": "Techniques",
+    "status": "Growth",
+    "label": "CI/CD",
+    "icon": ["iconify", "vscode-icons:file-type-circleci"],
+    "originId": "3a91dd79-c5b0-49c2-ae73-3ac690848bcb",
+    "id": "techniques-23"
+  },
+  {
+    "category": "Techniques",
+    "status": "Pause",
+    "label": "Contract Testing",
+    "icon": ["iconify", "ic:baseline-handshake"],
+    "originId": "69d2a3c7-9b15-43e4-941e-c6d8708b1bb8",
+    "id": "techniques-24"
+  },
+  {
+    "category": "Techniques",
+    "status": "Expert",
+    "label": "Design Patterns",
+    "icon": ["iconify", "mdi:pattern"],
+    "originId": "6c9a8c4e-835a-4c52-81d4-9e71d6d3792f",
+    "id": "techniques-41"
+  },
+  {
+    "category": "Techniques",
+    "status": "Expert",
+    "label": "Serverless Architecture",
+    "icon": ["iconify", "carbon:function"],
+    "originId": "a33dbf8d-c1f2-4f53-a573-8bff27e1a936",
+    "id": "techniques-42"
+  },
+  {
+    "category": "Techniques",
+    "status": "Growth",
+    "label": "Infrastructure as Code (IaC)",
+    "icon": ["iconify", "mdi:code-braces-box"],
+    "originId": "d8c5260e-c192-41f0-94d5-63b0a573b5a9",
+    "id": "techniques-43"
+  },
+  {
+    "category": "Techniques",
+    "status": "Expert",
+    "label": "Agile Methodology",
+    "icon": ["iconify", "mdi:chart-timeline-variant"],
+    "originId": "c9f69f0a-b77d-44c9-a1da-f18383d84926",
+    "id": "techniques-44"
+  },
+  {
+    "category": "Techniques",
+    "status": "Expert",
+    "label": "TDD",
+    "icon": ["iconify", "mdi:test-tube"],
+    "originId": "93cb742d-ec89-456d-9727-7f78ab111b4c",
+    "id": "techniques-45"
+  },
+  {
+    "category": "Techniques",
+    "status": "Expert",
+    "label": "BDD",
+    "icon": ["iconify", "mdi:human-greeting-variant"],
+    "originId": "7a2c630b-32c7-4d34-9ef3-c3bb8ddf2f3c",
+    "id": "techniques-46"
+  },
+  {
+    "category": "Techniques",
+    "status": "Expert",
+    "label": "Event-Driven Architecture",
+    "icon": ["iconify", "mdi:vector-event"],
+    "originId": "1b785536-0c1e-4a78-8b9a-544c1a3e22d4",
+    "id": "techniques-47"
+  },
+  {
+    "category": "Techniques",
+    "status": "Growth",
+    "label": "Data Modeling",
+    "icon": ["iconify", "mdi:table-large"],
+    "originId": "06db4987-df39-44e4-bd5c-2bda24c26908",
+    "id": "techniques-48"
+  },
+  {
+    "category": "Techniques",
+    "status": "Growth",
+    "label": "Authentication & Authorization",
+    "icon": ["iconify", "mdi:lock-check"],
+    "originId": "6a97a48b-6ebd-4cc9-8f21-fae84b08ac21",
+    "id": "techniques-49"
+  },
+  {
+    "category": "Techniques",
+    "status": "Growth",
+    "label": "Containerization",
+    "icon": ["iconify", "mdi:docker"],
+    "originId": "91eec6a4-6d82-491b-9b4f-ec03b5b7b7d5",
+    "id": "techniques-50"
+  },
+  {
+    "category": "Techniques",
+    "status": "Expert",
+    "label": "API Design",
+    "icon": ["iconify", "mdi:api"],
+    "originId": "6c305b68-c15b-44e0-bccd-d4e5a6a3b4d1",
+    "id": "techniques-52"
+  },
+  {
+    "category": "Techniques",
+    "status": "Expert",
+    "label": "Agile",
+    "icon": ["iconify", "mdi:agile"],
+    "originId": "b1c1c1c1-c1c1-c1c1-c1c1-c1c1c1c1c1c1",
+    "id": "techniques-1"
+  },
+  {
+    "category": "Techniques",
+    "status": "Expert",
+    "label": "Scrum",
+    "icon": ["iconify", "mdi:scrum"],
+    "originId": "b2c2c2c2-c2c2-c2c2-c2c2-c2c2c2c2c2c2",
+    "id": "techniques-2"
+  },
+  {
+    "category": "Techniques",
+    "status": "Growth",
+    "label": "Kanban",
+    "icon": ["iconify", "mdi:kanban"],
+    "originId": "b3c3c3c3-c3c3-c3c3-c3c3-c3c3c3c3c3c3",
+    "id": "techniques-3"
+  },
+  {
+    "category": "Techniques",
+    "status": "Expert",
+    "label": "CI/CD",
+    "icon": ["iconify", "mdi:source-branch"],
+    "originId": "b4c4c4c4-c4c4-c4c4-c4c4-c4c4c4c4c4c4",
+    "id": "techniques-4"
+  },
+  {
+    "category": "Techniques",
+    "status": "Expert",
+    "label": "TDD",
+    "icon": ["iconify", "mdi:test-tube"],
+    "originId": "b5c5c5c5-c5c5-c5c5-c5c5-c5c5c5c5c5c5",
+    "id": "techniques-5"
+  },
+  {
+    "category": "Techniques",
+    "status": "Growth",
+    "label": "BDD",
+    "icon": ["iconify", "mdi:beaker"],
+    "originId": "b6c6c6c6-c6c6-c6c6-c6c6-c6c6c6c6c6c6",
+    "id": "techniques-6"
+  },
+  {
+    "category": "Techniques",
+    "status": "Expert",
+    "label": "Microservices",
+    "icon": ["iconify", "mdi:microservices"],
+    "originId": "b7c7c7c7-c7c7-c7c7-c7c7-c7c7c7c7c7c7",
+    "id": "techniques-7"
+  },
+  {
+    "category": "Techniques",
+    "status": "Growth",
+    "label": "Event Sourcing",
+    "icon": ["iconify", "mdi:event"],
+    "originId": "b8c8c8c8-c8c8-c8c8-c8c8-c8c8c8c8c8c8",
+    "id": "techniques-8"
+  },
+  {
+    "category": "Techniques",
+    "status": "Explore",
+    "label": "CQRS",
+    "icon": ["iconify", "mdi:database"],
+    "originId": "b9c9c9c9-c9c9-c9c9-c9c9-c9c9c9c9c9c9",
+    "id": "techniques-9"
+  },
+  {
+    "category": "Techniques",
+    "status": "Expert",
+    "label": "Domain-Driven Design",
+    "icon": ["iconify", "mdi:domain"],
+    "originId": "c0d0d0d0-d0d0-d0d0-d0d0-d0d0d0d0d0d0",
+    "id": "techniques-10"
+  }
+] 

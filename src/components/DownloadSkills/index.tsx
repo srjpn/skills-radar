@@ -1,6 +1,6 @@
 import { Entry } from "../../types";
 import { proficiencyLevels } from "../../data/proficiencyLevels";
-import { getAllEntries, getGroupedEntries } from "../../data";
+import { getGroupedEntries } from "../../data";
 
 const generateReadableContent = () => {
     // Generate human-readable text
@@ -12,7 +12,7 @@ const generateReadableContent = () => {
         return level ? level.description : '';
     };
 
-    Object.entries(getGroupedEntries(getAllEntries())).forEach(([status, categoryGroups]) => {
+    Object.entries(getGroupedEntries()).forEach(([status, categoryGroups]) => {
         content += `## ${status}\n\n`;
         content += `${getDescription(status)}\n\n`;
 

@@ -20,7 +20,6 @@ export class Blip {
   y: number = 0;
 
   constructor(public entry: Entry) {
-    console.log(entry.category);
     const quadrant = categories.indexOf(entry.category);
     const ring = status.indexOf(entry.status);
 

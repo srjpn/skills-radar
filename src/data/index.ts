@@ -1,14 +1,23 @@
 import { Entry } from "../types";
-// Import the entries data
-import entriesData from '../entries.json';
+// Import category-specific data
+import languagesFrameworksData from './languages-frameworks.json';
+import platformsData from './platforms.json';
+import toolsData from './tools.json';
+import techniquesData from './techniques.json';
 
 export type Status = 'Expert' | 'Growth' | 'Explore' | 'Pause';
 
 export type Category = 'Languages & Frameworks' | 'Platforms' | 'Tools' | 'Techniques';
 
 
-// Type assertion for the imported JSON data
-const entries = entriesData as Entry[];
+
+// Combine all entries with type assertions
+const entries: Entry[] = [
+  ...(languagesFrameworksData as Entry[]),
+  ...(platformsData as Entry[]),
+  ...(toolsData as Entry[]),
+  ...(techniquesData as Entry[])
+];
 
 // Get all entries
 export const getAllEntries = (): Entry[] => {
@@ -26,7 +35,7 @@ export const getEntriesByStatus = (status: Status): Entry[] => {
 };
 
 // Get entry by ID
-export const getEntryById = (id: number): Entry | undefined => {
+export const getEntryById = (id: string): Entry | undefined => {
   return entries.find(entry => entry.id === id);
 };
 
@@ -43,11 +52,28 @@ export const getAllCategories = (): Category[] => {
 // Get all statuses
 export const getAllStatuses = (): Status[] => {
   return Array.from(new Set(entries.map(entry => entry.status))) as Status[];
-}; 
+};
 
-export const getGroupedEntries = (entries: Entry[]): Record<Status, Record<Category, Entry[]>> => {
-    return entries.reduce((acc, entry) => {
-        acc[entry.status][entry.category].push(entry);
-        return acc;
-    }, {} as Record<Status, Record<Category, Entry[]>>);
+// Initialize empty records for each status and category
+const initializeGroupedEntries = (): Record<Status, Record<Category, Entry[]>> => {
+  const statuses: Status[] = ['Expert', 'Growth', 'Explore', 'Pause'];
+  const categories: Category[] = ['Languages & Frameworks', 'Platforms', 'Tools', 'Techniques'];
+  
+  return statuses.reduce((acc, status) => {
+    acc[status] = categories.reduce((catAcc, category) => {
+      catAcc[category] = [];
+      return catAcc;
+    }, {} as Record<Category, Entry[]>);
+    return acc;
+  }, {} as Record<Status, Record<Category, Entry[]>>);
+};
+
+export const getGroupedEntries = (): Record<Status, Record<Category, Entry[]>> => {
+  const grouped = initializeGroupedEntries();
+  
+  entries.forEach(entry => {
+    grouped[entry.status][entry.category].push(entry);
+  });
+  
+  return grouped;
 };
